@@ -1,0 +1,172 @@
+/* General settings */
+
+.white-montserrat {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    transition: all 0.3s ease;
+    font-size: 16px;
+}
+
+.white-montserrat:hover {
+    color: rgb(214, 214, 214); 
+    transform: scale(1.02);
+}
+
+.navbar-nav {
+    padding-right: 85px;
+}
+
+.promo {
+    margin-top: 85px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 750px;
+}
+
+.promo_text {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+#h1-promo {
+    font-family: Montserrat;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 68px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.h3-icon-text {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0.02em;
+}
+
+.benefits-block {
+    width: 480px;
+    text-align: center;
+}
+
+.second_container {
+    margin-top: 85px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.thrid_container {
+    background-color: #3C3C3C; 
+    max-width: none;
+    margin-top: 60px;
+}
+
+.col {
+    width: 240px;
+}
+
+.mt-25 {
+    margin-top: 25px;
+}
+
+.mb-25 {
+    margin-bottom: 25px;
+}
+
+.slider_main {
+    width: 640px;
+    height: 480px;
+}
+
+.slider_thumbnails {
+    height: 150px;
+    width: 150px;
+    overflow: hidden;
+}
+
+/* Slider arrows */
+.slick-arrow {
+    background-color: transparent;
+    border: none;
+    color: transparent;
+    text-indent: 100%;
+    overflow: hidden;
+    width: 40px;
+    height: 38px;
+
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+}
+
+.slick-arrow.slick-prev {
+    left: -60px;
+    top: 65px;
+    background-image: url('../icons/left-arrow.svg');
+}
+
+.slick-arrow.slick-next {
+    right: -60px;
+    top: 65px;
+    background-image: url('../icons/right-arrow.svg');
+}
+
+/* Slider position */
+
+.slider-nav {
+    align-items: center;
+    margin-top: 100px;
+    width: 1050px;
+    margin-bottom: 85px;
+}
+
+.slider-nav.slick-slide {
+    height: 165px;
+    width: 165px;
+    overflow: hidden;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.slide_clipped {
+    height: 165px !important;
+    /* width: 165px !important; */
+    margin-right: 25px;
+    margin-left: 25px;
+    border-radius: 40px;
+}
+.slick-slide {
+    width: 165px;
+}
+
+.container_slider {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.slider_rounded {
+    border-radius: 40px;
+}
+
+/* Slider Text */
+
+.slider_h1 {
+    font-family: Montserrat;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: white;
+
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
