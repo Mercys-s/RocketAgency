@@ -1,4 +1,11 @@
 /* General settings */
+header {
+    background-color: #0A121E;
+}
+
+#menu {
+    display: none;
+}
 
 .white-montserrat {
     font-family: 'Montserrat', sans-serif;

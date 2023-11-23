@@ -8,6 +8,7 @@
         rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" \
         crossorigin="anonymous">
         <link rel="stylesheet" href="{% static 'nasa/css/main_page.css' %}">
+        <link rel="stylesheet" href="{% static 'nasa/css/main_page_adaptive.css' %}">
         <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,9 +17,10 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg " style="background-color: #0A121E;">
-            <div class="container">
-              <img src="{% static '/nasa/logo/logo_nasa.svg' %}">
+        <nav class="navbar navbar-expand-lg" >
+            <div class="container container-navbr">
+              <img src="{% static '/nasa/icons/menu.svg' %}" id="menu"> 
+              <img src="{% static '/nasa/logo/logo_nasa.svg' %}" id="logo">
                 <ul class="navbar-nav">
                     <li class="nav-item">
                     <a class="nav-link white-montserrat" href="#">Преимущества</a>
@@ -27,7 +29,7 @@
                     <a class="nav-link white-montserrat" href="#">Фотографии</a>
                     </li>
                 </ul>
-              <button class="btn btn-danger white-montserrat" type="submit"> 
+              <button class="btn btn-danger white-montserrat" id="header-button" type="submit"> 
                 Вход
               </button>
             </div>
@@ -58,7 +60,7 @@
                 <h3 class="h3-icon-text mb-25">Золотая медаль по научным исследованиям</h3>
             </div>
         </div>
-        <img src="{% static 'nasa/other/some_photo.svg' %}" width="450px" height="450" alt="">
+        <img class="benefits-block-photo" src="{% static 'nasa/other/some_photo.svg' %}" width="450px" height="450" alt="">
     </div>
     <div class="container thrid_container" >
         <div class="container_slider">

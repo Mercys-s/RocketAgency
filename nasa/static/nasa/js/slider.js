@@ -9,6 +9,7 @@ $('.slider-for').slick({
   arrows: false,
   fade: true,
   asNavFor: '.slider-nav'
+  
 });
 $('.slider-nav').slick({
   arrows: true,

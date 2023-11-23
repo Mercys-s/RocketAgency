@@ -1,0 +1,101 @@
+@media only screen and (max-width: 425px) {
+
+    /* Header */
+
+    .navbar-nav{
+        display: none;
+    }
+
+    header {
+        height: 80px;
+    }
+    
+    .container-navbr {
+        margin-top: 7px;
+    }
+
+    #header-button {
+        width: 88px;
+        height: 50px;
+    }
+
+    #logo {
+        margin-left: -60px;
+        height: 27px;
+    }
+
+    #menu{
+        display: block;
+    }
+
+
+
+    /* First container  */
+
+    .promo {
+        width: 100%;
+    }
+
+    #h1-promo {
+        font-size: 40px;
+        line-height: 1.2;
+    }
+
+
+
+    /* Second container */
+
+    .second_container {
+        flex-direction: column;
+        margin-top: 40px;
+    }
+
+    .col {
+        width: 200px;
+    }
+
+    .benefits-block {
+        width: 400px;
+    }
+
+    .benefits-block-photo {
+        width: 370px;
+        height: 370px;
+    }
+
+    /* Thrid Container */
+
+    .thrid_container {
+        margin-top: 30px;
+    }
+
+    .slider_h1 {
+        font-size: 36px;
+        margin-top: 50px;
+        margin-bottom: 40px;
+    }
+
+    .slider_rounded {
+        width: 340px !important;
+        height: 340px !important;
+        margin-left: 150px; 
+    }
+
+    .slider_main {
+        height: 300px;
+    }
+
+    .slide_clipped {
+        margin-right: 7px;
+        margin-left: 7px;
+
+        height: 90px !important ;
+        width: 90px ;
+        border-radius: 20px;
+    }
+    
+    .slider-nav {
+        margin-top: 80px;
+        margin-bottom: 50px;
+    }
+}
