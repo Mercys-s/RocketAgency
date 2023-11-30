@@ -8,9 +8,12 @@ $('.slider-for').slick({
   slidesToScroll: 1,
   arrows: false,
   fade: true,
-  asNavFor: '.slider-nav'
-  
+  asNavFor: '.slider-nav',
+
+  // variableWidth: true,
+  // variableHeight: true,
 });
+
 $('.slider-nav').slick({
   arrows: true,
   slidesToShow: 3,
