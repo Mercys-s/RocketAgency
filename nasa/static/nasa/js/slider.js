@@ -11,6 +11,7 @@ $('.slider-for').slick({
   asNavFor: '.slider-nav'
   
 });
+
 $('.slider-nav').slick({
   arrows: true,
   slidesToShow: 3,
