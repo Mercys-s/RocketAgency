@@ -1,0 +1,39 @@
+@media only screen and (max-width: 425px) {
+    
+    #h1-promo {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+
+    .second_container {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    .benefits-block {
+        width: 100%;
+        max-width: none;
+        text-align: center;
+    }
+
+    .benefits-block-photo {
+        margin-top: 20px;
+        width: 100%; 
+    }
+
+    .slider-nav {
+        width: 100%;
+    }
+
+    .slick-arrow {
+        display: none;
+    }
+}
+
+@media (max-width: 640px) {
+    .slider-for {
+        width: 100%;
+    } 
+}
